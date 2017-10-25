@@ -9,7 +9,7 @@ node {
 	
 	stage('Get default scratch org') {
         // need to pull out assigned username
-        rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:config:get defaultusername"
+        rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:config:get defaultusername --json"
         println(rmsg)
         def jsonSlurper = new JsonSlurperClassic()
         def robj = jsonSlurper.parseText(rmsg)
