@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testProject selectedBrowserConfigurationName="Full Screen" selectedEnvironment="Env1">
+  <title>/SFDX/.testproject</title>
+  <configPath>config</configPath>
+  <testsPath>tests</testsPath>
+  <templatesPath>templates</templatesPath>
+  <sourcePath>src</sourcePath>
+  <secureStoragePath>.secrets</secureStoragePath>
+  <browserDebugPort>0</browserDebugPort>
+  <environments>
+    <environment name="Env1"/>
+  </environments>
+  <connectionClasses>
+    <connectionClass name="sf">
+      <connections>
+        <connection name="DevHub">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="cfba5796-bb11-4b9e-9d34-64899cdc77be" url="sf:user=sowjanya.dx1@provartesting.com;password={password};environment=PROD_DEV"/>
+            <connectionUrl envName="Env1" secureStorageNodeId="485ad0a3-fdbc-4bce-85c2-d887206d57f3" url="sf:user=sowjanya.dx1@provartesting.com;password={password};environment=PROD_DEV"/>
+          </connectionUrls>
+        </connection>
+        <connection name="ScratchOrg2Admin">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="36d870d4-3a48-4cc8-b1b6-179d923fd1e3" url="sf:user=test-cmgsmp1je7kk@provardx1setup.net;password={password};environment=OTHER"/>
+            <connectionUrl envName="Env1" secureStorageNodeId="431466c8-5160-4511-8ebe-cdc4ac218544" url="sf:user=test-cmgsmp1je7kk@provardx1setup.net;password={password};environment=OTHER"/>
+          </connectionUrls>
+        </connection>
+        <connection name="SratchOrg2User1">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="14b2ebac-d919-470b-ba7d-6fa693dc564f" url="sf:user=scratchOrg2@user1.com;password={password};environment=PROD_DEV"/>
+            <connectionUrl envName="Env1" secureStorageNodeId="64682887-2c6f-452e-afc8-7d6e088f8638" url="sf:user=1508832141693_test-cmgsmp1je7kk@provardx1setup.net;password={password};environment=OTHER;apiLoginUrl=https://customer-velocity-2506-dev-ed.cs58.my.salesforce.com;userLoginUrl=https://customer-velocity-2506-dev-ed.cs58.my.salesforce.com"/>
+          </connectionUrls>
+        </connection>
+        <connection name="ScratchOrg2User2">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="2bf89299-2ced-4fae-9c92-19dfa966b48a" url="sf:user=scratchOrg2@user2.com;password={password};environment=PROD_DEV"/>
+            <connectionUrl envName="Env1" secureStorageNodeId="61b788f0-6fe9-4a66-a9ff-2b613b9e0a9a" url="sf:user=1508831792356_test-cmgsmp1je7kk@provardx1setup.net;password={password};environment=OTHER;apiLoginUrl=https://customer-velocity-2506-dev-ed.cs58.my.salesforce.com;userLoginUrl=https://customer-velocity-2506-dev-ed.cs58.my.salesforce.com"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
+  </connectionClasses>
+  <browserConfigurations>
+    <browserConfiguration adjustBrowserWidthForChromeIde="true" browserHeight="0" browserWidth="0" name="Full Screen">
+      <summary>Full screen with Test Builder adjustment</summary>
+    </browserConfiguration>
+    <browserConfiguration browserHeight="768" browserHeightType="Pixels" browserWidth="1024" browserWidthType="Pixels" name="1024x768">
+      <summary>Fixed 1024x768</summary>
+    </browserConfiguration>
+    <browserConfiguration browserHeight="800" browserHeightType="Pixels" browserWidth="1280" browserWidthType="Pixels" name="1280x800">
+      <summary>Fixed 1280x800</summary>
+    </browserConfiguration>
+    <browserConfiguration browserHeight="768" browserHeightType="Pixels" browserWidth="1366" browserWidthType="Pixels" name="1366x768">
+      <summary>Fixed 1366x768</summary>
+    </browserConfiguration>
+    <browserConfiguration browserHeight="1080" browserHeightType="Pixels" browserWidth="1920" browserWidthType="Pixels" name="1920x1080">
+      <summary>Fixed 1920x1080</summary>
+    </browserConfiguration>
+  </browserConfigurations>
+</testProject>
