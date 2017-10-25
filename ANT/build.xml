@@ -12,7 +12,7 @@
 		<Provar-ConfigureDx testEnvironment="Env1"
 					provarHome="${provar.home}"
 		 			projectPath="${testproject.home}"
-		 			adminUser="${SFDC_USERNAME_SO}"
+		 			adminUser="${env.SFDC_USERNAME_SO}"
 		 			/>
 
 		<!--<Provar-Compile provarHome="${provar.home}" projectPath="${testproject.home}"/>
