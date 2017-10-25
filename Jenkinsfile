@@ -5,6 +5,8 @@ node {
     def BUILD_NUMBER=env.BUILD_NUMBER
 	def SFDC_USERNAME
 	
+	def toolbelt = tool 'toolbelt'
+	
 	stage('Get default scratch org') {
         // need to pull out assigned username
         rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:config:get defaultusername"
