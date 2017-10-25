@@ -3,7 +3,7 @@ import groovy.json.JsonSlurperClassic
 node {
 
     def BUILD_NUMBER=env.BUILD_NUMBER
-	def SFDC_USERNAME = env.SFDC_USERNAME
+	def SFDC_USERNAME
 	
 	def toolbelt = tool 'toolbelt'
 	
