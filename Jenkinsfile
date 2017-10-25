@@ -7,6 +7,11 @@ node {
 	
 	//def toolbelt = tool 'toolbelt'
 	
+	stage('checkout source') {
+        // when running in multi-branch job, one must issue this command
+        checkout scm
+    }
+    
     stage('Run Provar test cases') {
     	rmsg = bat returnStdout: true, script: "ant -f ANT/build.xml -DSFDC_USERNAME_SO=${SFDC_USERNAME}"
         println(rmsg)
