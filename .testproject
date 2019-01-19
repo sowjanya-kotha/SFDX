@@ -41,6 +41,13 @@
             <connectionUrl envName="Env1" secureStorageNodeId="61b788f0-6fe9-4a66-a9ff-2b613b9e0a9a" url="sf:user=1508831792356_test-cmgsmp1je7kk@provardx1setup.net;password={password};environment=OTHER;apiLoginUrl=https://customer-velocity-2506-dev-ed.cs58.my.salesforce.com;userLoginUrl=https://customer-velocity-2506-dev-ed.cs58.my.salesforce.com"/>
           </connectionUrls>
         </connection>
+        <connection name="df13">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="3117cb7d-010e-4444-a0b7-8b8e04b52e2c" url="sf:user=df13@makepositive.com;password={password};environment=PROD_DEV;lightningMode=true"/>
+            <connectionUrl envName="Env1" secureStorageNodeId="558cd939-af25-49c7-949e-c3e2f4149f7a" url="sf:user=test-jthv05oagilq@provardx1setup.net;password={password};environment=OTHER;lightningMode=true;apiLoginUrl=https://data-dream-5649-dev-ed.cs31.my.salesforce.com;userLoginUrl=https://CS31.salesforce.com"/>
+          </connectionUrls>
+        </connection>
       </connections>
     </connectionClass>
   </connectionClasses>
